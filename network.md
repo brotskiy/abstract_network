@@ -1314,10 +1314,10 @@ NAT-устройства являются характерным предста�
 
 ```text
 N' = {u}
-  for all nodes v
-    if v is a neighbor of u
-      then D(v) = C(u,v)
-    else D(v) = ∞
+for all nodes v
+  if v is a neighbor of u
+    then D(v) = C(u,v)
+  else D(v) = ∞
 
 loop
   find w not in N' such that D(w) is a minimum
