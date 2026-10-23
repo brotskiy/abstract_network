@@ -2559,7 +2559,7 @@ Remote содержит следующую информацию о соседе:
 **HSS** способен уведомлять **Serving** посредством Diameter `Push-Profile-Request` о внесении оператором связи изменений в следующие компоненты *IMS Subscription* абонента:
 
 + *Сharging-Info* - набор серверов тарификации, обслуживающих данного абонента;
-+ *SIP Digest authentication information* - вектор Digest-аутентификации.
++ *SIP Digest authentication information* - вектор Digest-аутентификации (при изменении Digest-пароля).
 
   При его изменении **Serving** должен будет инициировать новый обмен *challenge request/response* посредством `NOTIFY` (только если у абонента есть подписка);
 
